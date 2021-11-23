@@ -1,7 +1,11 @@
 #include<iostream>
-int main(x, y) {
-   int x = 3;
-   int y = 2;
-   int sum = x + y;
-   std::cout << sum ;
+using namespace std;
+
+int sum(int x, int y) {
+  return x+y;
+}
+
+int main() {
+  cout << sum(3, 2);
+  return 0;
 }
