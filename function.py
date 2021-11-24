@@ -1,6 +1,4 @@
-def main():
-    x = 3
-    y = 2
+def main(x, y):
     return x + y
 
-print(main())
+print(main(3, 2))
