@@ -1,4 +1,4 @@
-prices = [40,30,50]
+prices = [40, 30, 50]
 def adding(x):
     to_pay = 0
     for i in x:
